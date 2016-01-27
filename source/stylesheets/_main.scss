@@ -11,6 +11,10 @@ main {
     margin-bottom: 100px;
     padding: 0 $content-body-padding;
 
+    p {
+      margin: 1em 0;
+    }
+
     .article-title {
       margin-bottom: 5rem;
       margin-top: 10rem;
