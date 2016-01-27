@@ -22,7 +22,7 @@ gem 'slim'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
 # For S3 deployment
-gem 'middleman-s3_sync', '~> 4.0.1.rc.3'
+# gem 'middleman-s3_sync', '~> 4.0.1.rc.3'
 
 # For Markdown
 gem 'redcarpet'
@@ -37,4 +37,4 @@ gem 'puma'
 gem 'rack-contrib'
 
 # Heroku New Relic Addon
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
