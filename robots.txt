@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ontheshelf.github.io//sitemap.xml.gz
