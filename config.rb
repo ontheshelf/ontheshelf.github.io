@@ -101,6 +101,22 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+configure :development do
+  activate :disqus do |d|
+    # using a special shortname
+    # d.shortname = "development-shortname"
+    # or setting to `nil` will stop Disqus loading
+    d.shortname = "test"
+  end
+end
+
+configure :build do
+  activate :disqus do |d|
+    # using a different shortname for production builds
+    d.shortname = "ontheshelf"
+  end
+end
+
 # Activate S3Sync
 # activate :s3_sync do |s3_sync|
 #   s3_sync.bucket                     = 'my.bucket.com' # The name of the S3 bucket you are targetting. This is globally unique.

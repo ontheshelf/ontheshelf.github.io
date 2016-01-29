@@ -32,6 +32,7 @@ html
           hr.article-header-separator
         = yield
         - unless current_article.nil?
+          = disqus
           = partial "partials/social"
     footer
       = partial "partials/footer"

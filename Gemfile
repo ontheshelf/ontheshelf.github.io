@@ -38,3 +38,6 @@ gem 'rack-contrib'
 
 # Heroku New Relic Addon
 # gem 'newrelic_rpm'
+
+# Comments
+gem 'middleman-disqus'
